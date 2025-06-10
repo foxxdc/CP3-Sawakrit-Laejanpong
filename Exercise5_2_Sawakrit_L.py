@@ -1,6 +1,6 @@
 print("---welcome---")
-s = int(input("Please Insert The Distance (Meter) :"))
-t = int(input("Please Insert The Time (Second) :"))
-v = s/t
-print(v)
+s = int(input("Please Insert The Distance (Meter) :")) #s=Distance(m)
+t = int(input("Please Insert The Time (Second) :"))  #t=Time(s)
+v = s/t  #v=velocity(m/s)
+print(v,"m/s")
 print("---end---")
